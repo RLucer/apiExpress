@@ -7,8 +7,6 @@ const port = process.env.PORT || 3001
 
 app.use(bodyParser.json()) // middleware 
  
-
-
 // DISHES
 
 app.get('/dishes', (req, res) => {
